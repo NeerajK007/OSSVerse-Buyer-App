@@ -208,10 +208,11 @@ export class ListConfirmRequestDto {
   })
   confirmRequestDto: ConfimRequestDto[]
 
-  // @ApiProperty({
-  //   type: String
-  // })
-  // userId: string
+  @ApiProperty({
+    type: String,
+    example: 12345
+  })
+  userId: string
 }
 
 
